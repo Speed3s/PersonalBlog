@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Add Blog</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style2.css">
+
+  
+</head>
+
+<body>
+
+  <div class="wrapper">
+	<div class="container">
+		<h1>Add Entry</h1>
+		
+		<form action="addEntry.php" method="post">
+			<div>
+				<label>Title:</label>
+				<input type="text" name= "getTitle">
+			</div>
+			<div>
+				<label>Body:</label>
+				<textarea name= "getBody"  rows="4"></textarea>
+			</div>
+			<div>
+				<i>&nbsp;&nbsp;&nbsp;</i>
+				<button type="submit" name="button">Add Entry</button>
+				<button onClick= "return confirm('Are you sure you want to clear the form')" type="reset" >Clear</button>
+			</div>
+			
+		</form>
+		
+		<div>
+			<a href="https://facebook.com/">
+				<img src = "icon/facebook.png">
+			</a>
+			<a href="https://twitter.com/">
+				<img src = "icon/twitter.png">
+			</a>
+			<a href="https://snapchat.com/">
+				<img src = "icon/snapchat.png">
+			</a>
+		</div>
+	</div>
+	
+</div>
+
+
+
+</body>
+
+</html>

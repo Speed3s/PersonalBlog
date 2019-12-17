@@ -1,0 +1,131 @@
+ body,
+    html {
+        margin: 0 auto;
+        background: #50a3a2;
+        background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+        background-size: 100%;
+        color: white;
+    }
+    .url{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    body{
+        font-family: 'Source Sans Pro', sans-serif ;
+        line-height: 1;
+    }
+    
+    #wrap {
+        width:70%;
+        margin:0 auto;        
+    }
+    
+    #header {
+        padding:5px 10px;  
+        
+    }
+    
+    h1 {
+        margin:0;
+    }
+    
+    #main {
+        float:right;
+        width:700px;
+        padding:10px;
+        border-radius: 5px;
+        margin-left:25%;
+        padding:1px 16px;
+        height:545px;
+        overflow: auto;
+    }
+    
+    h2 {
+        margin:0 0 1em;
+        font-family: Lucky First;
+        font-size: 30px;
+        color: white;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 16%;
+        position: fixed;
+        height: 70%;
+        
+        border-radius: 5px;
+    }
+
+    li a {
+        
+        border-radius: 5px;
+        display: block;
+        color: #000;
+        padding: 8px 16px;
+        text-decoration: none;
+        font-size: 25px;
+    }
+
+    li a.active {
+        background-color: rgba(255, 255, 255, 0.4);
+    }
+
+    li a:hover:not(.active) {
+        background-color: #555;
+        color: white;
+    }
+    
+    #footer {
+        clear:both;
+        padding:5px 10px;
+        color: white;
+        position: fixed;
+        bottom: 0;
+    }
+    
+    #footer p {
+        margin:0;
+    }
+    
+    * html #footer {
+        height:1px;
+    }
+    
+    #BlogTitle{
+        text-align: center;
+        font-family: orange juice;
+        font-weight: 400;
+        font-size: 150px;
+    }
+    
+    #title{
+        font-size: 50px;
+        margin:0 0 0.25em;
+        font-family: Lucky First;
+        color: white;
+    }
+    
+    #content{
+        font-size: 25px;
+    }
+    .boxPost{
+        
+        border-radius: 5px;
+        padding: 10px;
+        color: black;
+    }
+    .boxPost:hover{
+        border: 2px solid grey;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.4);
+        padding: 10px;
+    }
+    #deleteLink{
+        text-align: right;
+    }   
